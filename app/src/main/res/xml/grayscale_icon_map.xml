@@ -582,6 +582,7 @@
     <icon drawable="@drawable/yasnac" package="rikka.safetynetchecker" name="YASNAC" />
     <icon drawable="@drawable/yeelight" package="com.yeelight.cherry" name="Yeelight" />
     <icon drawable="@drawable/ymusic" package="com.kapp.youtube.final" name="YMusic" />
+    <icon drawable="@drawable/youtube" package="app.revanced.android.youtube" name="YouTube ReVanced" />
     <icon drawable="@drawable/youtube" package="com.google.android.youtube" name="YouTube" />
     <icon drawable="@drawable/youtube_music" package="com.google.android.apps.youtube.music" name="YouTube Music" />
     <icon drawable="@drawable/youtube_tv" package="com.google.android.apps.youtube.unplugged" name="YouTube TV" />
