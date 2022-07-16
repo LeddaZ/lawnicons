@@ -233,7 +233,6 @@
     <icon drawable="@drawable/google_chat" package="com.google.android.apps.dynamite" name="Google Chat" />
     <icon drawable="@drawable/google_chrome" package="com.android.chrome" name="Google Chrome" />
     <icon drawable="@drawable/google_chrome" package="org.chromium.chrome" name="Chromium" />
-    <icon drawable="@drawable/google_chrome" package="org.chromium.chrome" name="Chromium" />
     <icon drawable="@drawable/google_chrome" package="org.ungoogled.chromium.stable" name="Ungoogled Chromium" />
     <icon drawable="@drawable/google_chrome_beta" package="com.chrome.beta" name="Google Chrome Beta" />
     <icon drawable="@drawable/google_chrome_canary" package="com.chrome.canary" name="Google Chrome Canary" />
@@ -491,7 +490,6 @@
     <icon drawable="@drawable/slide_reddit" package="me.ccrama.redditslide" name="Slide" />
     <icon drawable="@drawable/smartpack_kernel_manager" package="com.smartpack.kernelmanager.release" name="SmartPack-Kernel Manager" />
     <icon drawable="@drawable/smarty" package="com.hutchison3g.sundae" name="SMARTY" />
-    <icon drawable="@drawable/smarty" package="com.hutchison3g.sundae" name="SMARTY" />
     <icon drawable="@drawable/sms_organizer" package="com.microsoft.android.smsorganizer" name="SMS Organizer" />
     <icon drawable="@drawable/snapchat" package="com.snapchat.android" name="Snapchat" />
     <icon drawable="@drawable/snapseed" package="com.niksoftware.snapseed" name="Snapseed" />
@@ -570,8 +568,6 @@
     <icon drawable="@drawable/wetter_online" package="de.wetteronline.wetterapp" name="Wetter Online" />
     <icon drawable="@drawable/wetter_online" package="de.wetteronline.wetterapppro" name="Wetter Online" />
     <icon drawable="@drawable/whatsapp" package="com.whatsapp" name="WhatsApp" />
-    <icon drawable="@drawable/whatsapp" package="com.whatsapp" name="WhatsApp" />
-    <icon drawable="@drawable/whatsapp_business" package="com.whatsapp.w4b" name="WhatsApp Business" />
     <icon drawable="@drawable/whatsapp_business" package="com.whatsapp.w4b" name="WhatsApp Business" />
     <icon drawable="@drawable/wikipedia" package="org.wikipedia" name="Wikipedia" />
     <icon drawable="@drawable/wordweb" package="com.wordwebsoftware.android.wordweb" name="WordWeb" />
