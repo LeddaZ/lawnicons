@@ -6,6 +6,24 @@ plugins {
     id("com.google.android.gms.oss-licenses-plugin")
 }
 
+fun getCommitHash(): String {
+    val stdout = org.apache.commons.io.output.ByteArrayOutputStream()
+    project.exec {
+        commandLine = "git rev-parse --short=7 HEAD".split(" ")
+        standardOutput = stdout
+    }
+    return String(stdout.toByteArray()).trim()
+}
+
+fun getCommitCount(): Int {
+    val stdout = org.apache.commons.io.output.ByteArrayOutputStream()
+    project.exec {
+        commandLine = "git rev-list --count HEAD".split(" ")
+        standardOutput = stdout
+    }
+    return Integer.parseInt(String(stdout.toByteArray()).trim())
+}
+
 android {
     compileSdk = 32
 
@@ -13,8 +31,8 @@ android {
         applicationId = "app.lawnchair.lawnicons"
         minSdk = 26
         targetSdk = 31
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = getCommitCount()
+        versionName = "Dev ${getCommitHash()}"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
